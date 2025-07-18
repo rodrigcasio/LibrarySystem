@@ -1,6 +1,6 @@
-# LibrarySystem: C++ Console Project
+# LibrarySystem (C++)
 
-A lightweight C++ console-based system for managing a library, designed to demonstrate the use of **variable scopes** and **storage classes** through book management, reservations, and membership tracking.
+This is a small C++ console project I made to practice using variable scopes, storage classes, and basic C++ programming. The program simulates a simple library system where you can add books, manage reservations, and keep track of members.
 
 ## Features
 
@@ -12,24 +12,21 @@ A lightweight C++ console-based system for managing a library, designed to demon
 
 - **Counters**: Track borrowed books and members using static variables, accessible via static methods.
 
-## C++ Principles: 
-  - **Variable Scopes**: Uses `auto` for iterators, range-based `for` loops, and `*it` dereferencing in `borrowBook()` to demonstrate iterator mechanics and scope control.
-
-  - **Storage Classes**: Employs `static` for global counters (`totalBorrowedBooks`, `totalMembersCount`), `mutable` for `reservedBooks` in `const` methods, and `const` for read-only functions.
-
-  - **Iterators**: Combines manual `for` loop with `*it` dereferencing and `std::find` in `borrowBook()` to showcase iterator efficiency and flexibility.
-
-  - **Vectors**: Uses `std::vector<std::string>` for `bookList`, `reservedBooks`, and `libraryMembers`, with dynamic management.
-
 ## Purpose
 
-Developed as part of my C++ learning journey to demonstrate the use of **variable scopes** and **storage classes**. This project showcases my ability to design and implement functional systems using vectors, iterators, and storage modifiers, building on projects like `SchoolSystem` and `FLightBookingEx`.
+I made this project to get better at using things like `static` variables, `const` methods, and vectors in C++. It helped me understand how to organize code for a small system and how to use different storage classes and variable scopes.
 
 ## How to Run
-```
-g++ src/mainLibrarySystem.cpp src/fns_LibrarySystem.cpp -I include -o library
-./library
-```
+
+1. Make sure you have a C++ compiler (like g++) installed.
+2. Compile the code:
+   ```
+   g++ src/mainLibrarySystem.cpp src/fns_LibrarySystem.cpp -I include -o library
+   ```
+3. Run the program:
+   ```
+   ./library
+   ```
 
 ## Sample Output
 ```
@@ -61,5 +58,7 @@ Imaginary book is not available in the library.
 ...
 ```
 
-## Author 
-Rodrigo Casio ([View my Github profile](https://github.com/rodrigcasio))
+## Author
+
+Rodrigo Casio  
+[My GitHub Profile](https://github.com/rodrigcasio)
