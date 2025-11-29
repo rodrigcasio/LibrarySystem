@@ -1,6 +1,7 @@
 #include "h_LibrarySystem.hpp"
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 int Library::totalBorrowedBooks = 0;
 int Library::totalMembersCount = 0;
